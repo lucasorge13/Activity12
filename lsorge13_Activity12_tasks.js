@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Button event listeners for asynchronous tasks
   document.getElementById('btnTask1').addEventListener('click', async () => {
     await handleTask('Task 1', 2000);
   });
@@ -15,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function simulateAsyncTask(delay, result) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        if (Math.random() > 0.7) { // 30% chance of error
+        if (Math.random() > 0.7) {
           reject(`Error in ${result}`);
         } else {
           resolve(`${result} completed`);
