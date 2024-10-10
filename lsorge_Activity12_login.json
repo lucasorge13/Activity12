@@ -1,0 +1,12 @@
+[
+  {
+    "user": "Abraham Aldaco",
+    "password": "secoms3190",
+    "admin": true
+  },
+  {
+    "user": "Lucas Sorge",
+    "password": "mypassword123",
+    "admin": false
+  }
+]
