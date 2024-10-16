@@ -16,7 +16,7 @@ document.getElementById("loginButton").addEventListener("click", async (event) =
 async function fetchUser() {
   document.getElementById("loginuser").innerHTML = `Authenticating...`;
   return new Promise((resolve, reject) => {
-    fetch("./07_2_31_Challenge_fetchuser_login_Async_Await.json")
+    fetch("./lsorge_Activity12_login.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
